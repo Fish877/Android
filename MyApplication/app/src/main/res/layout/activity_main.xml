@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="262dp"
+        android:layout_height="328dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text="hiiiii"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:padding="10dp"
+        android:text="Send"
+        app:layout_constraintLeft_toRightOf="@+id/ed"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <EditText
+        android:id="@+id/ed"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="請輸入文字"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+</android.support.constraint.ConstraintLayout>
